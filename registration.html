@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+  <main>
+    <div class="form col-lg-5">
+      <div class="i"><i class="fa fa-home"></i></div>
+      <form id="form" action="calculator.html">
+        <table>
+          <tr>
+            <th><label for="name">First name:</label></th>
+            <td><input type="text" id="name" name="name" class="form-control"></td>
+          </tr>
+          <tr>
+            <th><label for="surname">Surname:</label></th>
+            <td><input type="text" id="surname" name="surname" class="form-control"></td>
+          </tr>
+          <tr>
+            <th><label for="date">Date of Birth:</label></th>
+            <td><input type="text" id="date" name="date" class="form-control" placeholder="dd/mm/yyyy"></td>
+          </tr>
+          <tr>
+            <th><label for="email">E-mail:</label></th>
+            <td><input type="text" id="email" name="email" class="form-control"></td>
+          </tr>
+          <tr>
+            <th><label for="password">Password:</label></th>
+            <td><input type="password" id="password" name="password" class="form-control"></td>
+          </tr>
+          <tr class="criterias">
+            <th></th>
+            <td>
+              <span>*It must contain at least one uppercase letter.</span><br>
+              <span>*It must contain at least one numeric digit.</span><br>
+              <span>*It must contain at least one special character.</span>
+            </td>
+          </tr>
+          <tr>
+            <th><label for="gender">Gender:</label></th>
+            <td>
+              <select class="form-control" id="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+            </td>  
+          </tr>
+        </table>
+        <div class="check">
+          <h6 style="text-align: center;"><b>Interests</b></h6>
+          <label class="form-check-label" for="swimming">
+            <input type="checkbox" class="form-check-input" id="swimming" name="swimming">Swimming
+          </label>
+          <label class="form-check-label" for="basketball">
+            <input type="checkbox" class="form-check-input" id="basketball" name="basketball">Basketball
+          </label>
+          <label class="form-check-label" for="football">
+            <input type="checkbox" class="form-check-input" id="football" name="football">Football
+          </label>
+          <label class="form-check-label" for="computergames">
+            <input type="checkbox" class="form-check-input" id="computergames" name="computergames">Computer Games
+          </label>
+          <label class="form-check-label" for="skating">
+            <input type="checkbox" class="form-check-input" id="skating" name="skating">Skating
+          </label>
+          <label class="form-check-label" for="tennis">
+            <input type="checkbox" class="form-check-input" id="tennis" name="tennis">Tennis
+          </label>
+          <label class="form-check-label" for="reading">
+            <input type="checkbox" class="form-check-input" id="reading" name="reading">Reading
+          </label>
+          <label class="form-check-label" for="movie">
+            <input type="checkbox" class="form-check-input" id="movie" name="movie">Movie & Series
+          </label>
+        </div>
+        <div class="buttons">
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-success">Reset</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+
+  <script src="registration.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

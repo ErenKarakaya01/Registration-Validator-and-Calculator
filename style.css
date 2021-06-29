@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("back.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: rgb(109, 209, 213);
+  border-radius: 2em;
+  height: min-content;
+  padding: 3rem 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+tr > * {
+  margin: 0 0.5rem;
+  padding: 0.3rem 0;
+}
+
+th {
+  width: 30%;
+  text-align: center;
+}
+
+td {
+  width: 70%;
+}
+
+.check {
+  margin: 1rem 4rem;
+}
+
+.check label {
+  margin: 0 2.5rem;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons > * {
+  margin: 0 0.5rem;
+}
+
+.i {
+  font-size: 5rem; 
+  color: #5f5f5f;
+  display: block;
+  width: min-content;
+  margin: auto;
+}
+
+.criterias td {
+  display: block;
+  width: 100%;
+  color: rgb(233, 0, 0);
+}
+
+.criterias td span {
+  font-size: 1em;
+}
+
+
+/* CALCULATOR */
+
+#calculator {
+  width: 30rem;
+  height: auto;
+  background-color: rgb(179, 179, 179);
+  border-top-right-radius: 50px 20px;
+  border-top-left-radius: 50px 20px;
+  border-bottom-right-radius: 30px 20px;
+  border-bottom-left-radius: 30px 20px;
+}
+
+#screen {
+  height: 20vh;
+  background-color: rgb(94, 94, 94);
+  padding: 1em;
+  border-top-right-radius: 50px 20px;
+  border-top-left-radius: 50px 20px;
+}
+
+#up {
+  height: 50%;
+  font-size: 2em;
+}
+
+#down {
+  height: 50%;
+  float: right;
+  font-size: 3em;
+}
+
+.column {
+  height: min-content;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(32, 14, 190);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(21, 117, 146);
+  width: 100%;
+  margin: 0.56em 0;
+}
+
+.button:hover {background-color: rgb(39, 0, 131)}
+
+.button:active {
+  background-color: rgb(10, 0, 104);
+  box-shadow: 0 5px rgb(21, 117, 146);
+  transform: translateY(4px);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.equals {
+  width: 235%;
+}
+
+.zero {
+  width: 235%;
+}
